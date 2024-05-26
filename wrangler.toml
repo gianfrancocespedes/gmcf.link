@@ -1,0 +1,10 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "gmcflink"
+main = "index.js"
+compatibility_date = "2024-05-24"
+compatibility_flags = ["nodejs_compat"]
+account_id = "cc670a5d15787fbeefb372f6af4abb87"
+route = "gmcf.link/*"
+kv_namespaces = [
+    { binding = "URLS", id = "3b0dfe720a484b91a736a20d3b986a3c" }
+]
